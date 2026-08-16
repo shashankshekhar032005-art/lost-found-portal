@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import ItemCard from "../components/ItemCard";
+import ItemCard from "../components/itemcard";
 
 function Home() {
   const [search, setSearch] = useState("");
