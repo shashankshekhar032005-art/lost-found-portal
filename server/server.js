@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 
 require("dotenv").config();
 
-const itemRoutes = require("./routes/itemRoutes");
+const itemRoutes = require("./routes/itemroutes");
 const authRoutes = require("./routes/authRoutes");
 
 const app = express();
