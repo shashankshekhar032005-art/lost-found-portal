@@ -18,7 +18,7 @@ function FoundItems() {
         setError("");
 
         const response = await fetch(
-          "http://localhost:5000/api/items/found"
+         "http://localhost:5000/api/items?type=Found"
         );
 
         const data = await response.json();
