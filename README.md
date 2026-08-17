@@ -54,13 +54,37 @@ Technologies Used
 * GitHub
 * Vite
 
+# 📁 Project Structure
 
-### Project Structure:-
-  
-  Lost-Found-MERN-main/
+Lost-Found-MERN-main/
+│
+├── public/
+│
+├── server/
+│   ├── models/
+│   │   ├── User.js
+│   │   └── Item.js
+│   │
+│   ├── routes/
+│   │   ├── authroutes.js
+│   │   ├── itemroutes.js
+│   │   └── ...
+│   │
+│   ├── middleware/
+│   │   └── ...
+│   │
+│   ├── package.json
+│   ├── package-lock.json
+│   └── server.js
 │
 ├── src/
+│   ├── assets/
+│   │   └── bag.png
+│   │
 │   ├── components/
+│   │   ├── filter.jsx
+│   │   ├── footer.jsx
+│   │   ├── itemcard.jsx
 │   │   ├── navbar.jsx
 │   │   └── searchbar.jsx
 │   │
@@ -82,17 +106,17 @@ Technologies Used
 │   ├── index.css
 │   └── main.jsx
 │
-├── server/
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-│   └── ...
-│
 ├── .gitignore
+├── eslint.config.js
+├── index.html
 ├── package.json
 ├── package-lock.json
 ├── README.md
 └── vite.config.js
+
+
+
+
 
 
  Author
