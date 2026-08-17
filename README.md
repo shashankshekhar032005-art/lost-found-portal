@@ -56,6 +56,7 @@ Technologies Used
 
 # 📁 Project Structure
 
+```text
 Lost-Found-MERN-main/
 │
 ├── public/
@@ -113,15 +114,15 @@ Lost-Found-MERN-main/
 ├── package-lock.json
 ├── README.md
 └── vite.config.js
+```
 
 
-
-
-
-
- Author
-
-**Shashank Shekhar**
+***Author
+Shashank Shekhar 
 BCA Student
 
+
+
+
+ 
 
